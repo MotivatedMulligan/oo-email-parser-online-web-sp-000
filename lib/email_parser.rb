@@ -5,13 +5,13 @@
 class EmailAddressParser
 
 attr_accessor :email_addresses
-
+@@all = []
 def initialize
-  self.new
+  @email = email
 end
 
 def parse
-str.split(',' || ' ') 
+ @@all << str.split(',' || ' ') 
 end
 
 

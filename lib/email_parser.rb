@@ -15,7 +15,7 @@ end
 #  parser = EmailAddressParser.new(email_addresses)
 #end
 def parse
-  
+
  print email.split(/[ ,]/)
 end
 

@@ -4,18 +4,18 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-attr_accessor :string_of_emails
+attr_accessor :email_addresses)
 
 
-def initialize(string_of_emails)
-  @string_of_emails = string_of_emails
+def initialize(email_addresses))
+  @email_addresses) = email_addresses)
 end
 #def parser
 #  parser = EmailAddressParser.new(email_addresses)
 #end
 def parse
 
-string_of_emails.split(/, |\s/).uniq
+email_addresses).split(/, |\s/).uniq
 end
 
 

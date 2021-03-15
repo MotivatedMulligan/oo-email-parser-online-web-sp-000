@@ -16,7 +16,7 @@ end
 #end
 def parse
   
- print email_addresses.split(/[,\s]/)
+ print email.split(/[ ,]/)
 end
 
 

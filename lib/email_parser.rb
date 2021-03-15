@@ -6,10 +6,12 @@ class EmailAddressParser
 
 attr_accessor :email_addresses
 @@all = []
-def initialize
-  @email = email
+def initialize(email_addresses)
+  @email_addresses = email_addresses
 end
-
+def parser
+  parser = EmailAddressParser.new(email_addresses)
+end
 def parse
  @@all << str.split(',' || ' ') 
 end

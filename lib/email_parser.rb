@@ -13,7 +13,7 @@ def parser
   parser = EmailAddressParser.new(email_addresses)
 end
 def parse
- @@all << str.split(',' || ' ') 
+ @@all << str.split(',' || ' ')
 end
 
 
